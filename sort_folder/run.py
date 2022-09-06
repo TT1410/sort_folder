@@ -82,7 +82,7 @@ def normalize(name: str) -> str:
     return re.sub(r'([^\w\s]+)', lambda match: '_' * len(match.group()), name).translate(TRANS)
 
 
-def report_folder(path: Path, file_extensions: dict, other_file_extensions: list) -> dict[str, list]:
+def report_folder(path: Path, file_extensions: dict, other_file_extensions: list) -> None:
 
     print(f"\nУ каталозі «{path}» знайдено файли з розширенням:")
     print("{:^15}|{:>5}".format("Розширення", "Кількість"))
