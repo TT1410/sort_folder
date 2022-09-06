@@ -4,7 +4,7 @@ from setuptools import setup
 setup(name='sort_folder',
       version='1',
       description='Сортування файлів у папці',
-      url='http://github.com/dummy_user/useful',
+      url='https://github.com/TT1410/sort_folder',
       author='TT1410',
       author_email='tarplax@gmail.com',
       license='MIT',
